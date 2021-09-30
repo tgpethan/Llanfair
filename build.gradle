@@ -1,12 +1,13 @@
 buildscript {
 	repositories { jcenter() }
+	dependencies {
+		classpath 'com.github.jengelman.gradle.plugins:shadow:2.0.4'
+	}
 }
 
 plugins {
 	id 'java'
 	id 'application'
-	id 'com.github.johnrengelman.shadow' version '2.0.4'
-	id 'edu.sc.seis.macAppBundle' version '2.2.1'
 }
 
 sourceCompatibility = 1.7
@@ -14,6 +15,8 @@ targetCompatibility = 1.7
 
 version = '1.6-SNAPHSOT'
 mainClassName = 'org.fenix.llanfair.Llanfair'
+
+apply plugin: 'com.github.johnrengelman.shadow'
 
 repositories {
 	mavenCentral()
@@ -24,12 +27,4 @@ dependencies {
 	compile 'com.1stleg:jnativehook:2.0.2'
 	compile 'com.thoughtworks.xstream:xstream:1.4.4'
 	compile group: 'org.json', name: 'json', version: '20180130'
-}
-
-macAppBundle {
-	appName = 'Llanfair'
-	mainClassName = 'org.fenix.llanfair.Llanfair'
-	bundleJRE = false
-	javaProperties.put('apple.laf.useScreenMenuBar', 'true')
-	icon = 'Llanfair.icns'
 }
