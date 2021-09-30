@@ -2,11 +2,13 @@
 
 Make sure this is ran using Java 7 (see [this issue](https://github.com/tgpethan/Llanfair/issues/1))
 
+I'm mainly working on this as I run under Linux. LiveSplit One is not enough, I need global keybinds (haven't checked in a while so feel free to prove me wrong) and there isn't really many other solutions.
+
 ---
 
 [From the homepage](http://jenmaarai.com/llanfair/en/):
 
-> Llanfair is a free software that helps speedrunners keep track of their run. Released in August 2012, its capacity for customization and its portability allowed it to garner some recognition in the scene. Developed in Java, Llanfair can run on Windows, MacOS, or Unix.
+> Llanfair is a free software that helps speedrunners keep track of their run. Released in August 2012, its capacity for customization and its portability allowed it to garner some recognition in the scene. Developed in Java, Llanfair can run on Windows, MacOS, or nix* systems.
 
 The original author Xavier "Xunkar" Sencert was kind enough to release the sources 
 (see [here](https://twitter.com/Xunkar/status/671042537134624768) and [here](https://twitter.com/Xunkar/status/671099823563632641))
