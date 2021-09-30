@@ -6,6 +6,7 @@ target/
 out/
 build/
 classes/
+.vscode/
 .project
 .classpath
 *.iml
