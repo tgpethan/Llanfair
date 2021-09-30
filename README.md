@@ -1,6 +1,6 @@
 # Llanfair
 
-**This project is not maintained anymore. I have not speedrun anything in over a year, and while I once thought I might come back to it again, that is highly unlikely to be the case anymore.**
+Make sure this is ran using Java 7 (see [this issue](https://github.com/tgpethan/Llanfair/issues/1))
 
 ---
 
