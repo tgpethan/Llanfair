@@ -138,6 +138,9 @@ public class Llanfair extends BorderlessFrame implements TableModelListener,
 	 * @param args array of command line parameters supplied at launch
 	 */
 	public static void main( String[] args ) {
+		// Enable OpenGL to keep the repaint rate the same when unfocused on versions of java > 7
+		System.setProperty("sun.java2d.opengl", "true");
+
 		// latest version of JNativeHook is a bit noisy logging-wise by default
 		Logger jnativehookLogger = Logger.getLogger(GlobalScreen.class.getPackage().getName());
 		jnativehookLogger.setLevel(Level.WARNING);
