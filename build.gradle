@@ -10,8 +10,8 @@ plugins {
 	id 'application'
 }
 
-sourceCompatibility = 1.7
-targetCompatibility = 1.7
+sourceCompatibility = 1.11
+targetCompatibility = 1.11
 
 version = '1.6-SNAPHSOT'
 mainClassName = 'org.fenix.llanfair.Llanfair'
