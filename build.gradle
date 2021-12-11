@@ -13,7 +13,7 @@ plugins {
 sourceCompatibility = 1.11
 targetCompatibility = 1.11
 
-version = '1.6-SNAPHSOT'
+version = 'OpenSource'
 mainClassName = 'org.fenix.llanfair.Llanfair'
 
 apply plugin: 'com.github.johnrengelman.shadow'
