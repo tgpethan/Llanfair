@@ -4,6 +4,7 @@
 .gradle/
 target/
 out/
+bin/
 build/
 classes/
 .vscode/
