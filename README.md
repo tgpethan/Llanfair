@@ -12,7 +12,7 @@ there and fixing bugs as needed.
 
 ## Download
 
-Check the [releases page](releases) for downloadable JARs. 
+Check the [releases page](https://github.com/tgpethan/Llanfair/releases/latest) for downloadable JARs. 
 
 Llanfair requires Java 11 or later to run. Java 11 is recomeneded currently as there are issues running it on later versions.
   
@@ -20,7 +20,7 @@ Llanfair requires Java 11 or later to run. Java 11 is recomeneded currently as t
 
 Llanfair currently requires Java 11 or later to build and Gradle 6.8.3
 
-Deprecated options used within [build.gradle](blob/master/build.gradle) were removed in Gradle 7.0 and newer and I'm not familar enough with gradle to get this up to date. **Any help here would be appreciated!**
+Deprecated options used within [build.gradle](build.gradle) were removed in Gradle 7.0 and newer and I'm not familar enough with gradle to get this up to date. **Any help here would be appreciated!**
 
 ### Command Line Building
 To build:
