@@ -1,5 +1,5 @@
-# Llanfair
-I'm mainly working on this as I run under Linux. LiveSplit One is not enough, I need global keybinds (haven't checked in a while so feel free to prove me wrong) and there isn't really many other solutions.
+# Llanfair [![Release](https://img.shields.io/github/v/release/tgpethan/Llanfair.svg)](releases/latest) [![CodeFactor](https://www.codefactor.io/repository/github/tgpethan/llanfair/badge)](https://www.codefactor.io/repository/github/tgpethan/llanfair)
+I'm mainly working on this as I run under Linux. LiveSplit One is not enough, I need global keybinds (haven't checked in a while so feel free to prove me wrong if there's any good alternatives) and there isn't really many other solutions.
 
 ---
 
